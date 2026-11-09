@@ -23,6 +23,7 @@ export default function App() {
 
   return (
     <>
+    
       <AnnouncementBar />
       <Navbar />
       <CategoryTabs categories={CATEGORIES} active={category} onChange={setCategory} />
